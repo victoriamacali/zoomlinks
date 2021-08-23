@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title> Vic's Zoom Links </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+  .button {
+    background-color: #FCF55F;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  </style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar" color=#FCF55F;
+}><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/download-removebg-preview.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Victoria's Zoom Links</b></h4>
+    <p class="w3-text-grey">Computer Science Student @ CSULB</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#courses" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-black"><i class="fa fa-th-large fa-fw w3-margin-right"></i>COURSES</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Courses</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white" onclick="filterSelection('major')"><i class="fa fa-diamond w3-margin-right"></i>Major Courses</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Engineering</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>EXCEL</button>
+    </div>
+    </div>
+  </header>
+  
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/328.jpg" alt="328" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white" class="filterDiv major">
+        <h1 class="w3-center">CECS 328</h1>
+        <h2 class="w3-center"> Algorithms</h2>
+        <p class="w3-center"> Section 1</p>
+        <p class="title - w3-center"> M/W 9:00 am - 10:45 am</p>
+        <a href="https://csulb.zoom.us/j/83801540750?pwd=WEdzQVFYT0hYd3QwS3ZwNjBxcGM2UT09" class="button w3-center">Lecture</a>
+        <a href="https://csulb.zoom.us/j/86188533580?pwd=OGViS3FxYXdSYnJMbVByQlArd3hIdz09" class="button">Office Hour</a>
+      </div>
+    </div>
+    
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/343.png" alt="343" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1>CECS 343</h1>
+        <h3 class="w3-center"> Intro to Software Engineering </h3>
+        <p class="w3-center">Section 3</p>
+        <p class="title - w3-center"> M/W 5:00 pm - 6:15 pm</p>
+        <a href="https://csulb.zoom.us/j/86845075480" class="button w3-center">Lecture</a>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/302.png" alt="302" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1>CECS 302</h1>
+        <h3 class="w3-center"> Intro to Computer Forensics </h3>
+        <p class="w3-center">Sections 1 & 2</p>
+        <p class="title - w3-center"> M/W  Lecture 6:30 pm - 7:20 pm</p>
+        <p class="title - w3-center"> M/W Lab 7:30 pm - 8:45 pm</p>
+        <a href="#" class="button">Lecture</a>
+        <a href="#" class="button">Lab</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/350.png" alt="350" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1 class="w3-center">ENGR 350</h1>
+        <h3 class="w3-center"> Computers, Ethics & Society</h3>
+        <p class="w3-center"> Section 4</p>
+        <p class="title - w3-center"> Tu/Thurs 9:00 am - 10:45 am</p>
+        <a href="https://csulb.zoom.us/j/81118853058?pwd=bFdSUFlNeXpMTzh4MEpaeGF2UEZpZz09" class="button w3-center">Lecture</a>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/229.png" alt="229" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1 class="w3-center">CECS 229</h1>
+        <h3 class="w3-center"> Discrete Struct Comp Applic II </h3> 
+        <p class="w3-center"> Section 2</p>
+        <p class="title - w3-center"> Tu/Thurs 12:30pm - 1:45 pm</p>
+        <a href="https://csulb.zoom.us/j/87911626750?pwd=dGFNNHdtNnR4NzBIMENnT2ZJcHdaZz09" class="button w3-center">Lecture</a>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/282.png" alt="282" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1>CECS 282</h1>
+        <h3 class="w3-center"> Advanced C++</h3>
+        <p class="w3-center">Sections 4 & 5</p>
+        <p class="title - w3-center"> Tu/Thurs Lecture 6:00 pm - 6:50 pm</p>
+        <p class="title - w3-center"> Tu/Thurs Lab 7:00pm - 8:15 pm</p>
+        <a href="https://csulb.zoom.us/j/3996162973" class="button">Lecture</a>
+        <a href="https://csulb.zoom.us/j/3996162973" class="button"> Office Hours</a>
+      </div>
+    </div>
+
+        <!-- Third Photo Grid-->
+    <div class="w3-third w3-container w3-center">
+      <img src="images/101.png" alt="101" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h1 class="w3-center">ENGR 101</h1>
+        <h3 class="w3-center"> Intro to Engineering Profession </h3>
+        <p class="w3-center"> Section 13</p>
+        <p class="title - w3-center"> Fri 2:00 pm - 2:50 pm</p>
+        <a href="https://csulb.zoom.us/j/81206780670" class="button w3-center">Lecture</a>
+      </div>
+  </div>
+
+
+
+
+
+
+</div id="about">
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>I am first generation college student finding her way in the world of tech.&#128105;&#127997;&#8205;&#128187;</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Fall 2021 Semester</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:1%">1%</div>
+    </div>
+
+  </div>
+</div>
+  </footer>
+  <div class="w3-black w3-center w3-padding-24">  © Victoria Macali 2021  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
